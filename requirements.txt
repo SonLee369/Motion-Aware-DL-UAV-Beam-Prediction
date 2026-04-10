@@ -1,0 +1,27 @@
+# ===========================================
+# Beam Prediction 5G - Core Dependencies
+# Python 3.10 | PyTorch + CUDA 12.8
+# ===========================================
+
+# Deep Learning
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch
+torchvision
+torchaudio
+
+# Scientific computing
+numpy
+pandas
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Training utilities
+tensorboard
+tqdm
+
+# Report generation
+fpdf2
